@@ -1,0 +1,27 @@
+.profile-container {
+	background-color: #333;
+	color: #fff !important;
+	max-width: 700px;
+	border-radius: 8px;
+	border: 1px solid #555;
+	margin: 0 auto;
+	padding: 20px;
+	display: flex;
+	flex-direction: column;
+	.profile-pic {
+		margin: 0 auto;
+		picture {
+			img {
+				max-width: 300px;
+				border-radius: 8px;
+			}
+		}
+	}
+	h2 {
+		margin: 20px 0 10px 0;
+	}
+	ul,
+	li {
+		list-style: none;
+	}
+}

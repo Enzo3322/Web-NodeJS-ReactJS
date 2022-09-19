@@ -1,0 +1,21 @@
+.project-container {
+	height: 100px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #222;
+	border-radius: 8px;
+	a {
+		color: unset;
+		text-decoration: none;
+		height: 100%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		text-align: center;
+		user-select: none;
+		p {
+			text-transform: capitalize;
+		}
+	}
+}

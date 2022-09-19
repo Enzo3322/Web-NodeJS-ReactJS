@@ -1,0 +1,39 @@
+.number-multiplyer {
+	color: #fff;
+	background-color: #333;
+	border: 1px solid #555;
+	border-radius: 8px;
+	margin: 0 auto;
+	max-width: 700px;
+	margin-top: 50px;
+	padding: 20px;
+	p {
+		font-size: 2rem;
+		text-align: center;
+		font-weight: 800;
+		margin: 20px;
+		span {
+			text-decoration: underline;
+		}
+	}
+	.inputs {
+		display: flex;
+		flex-direction: column;
+		input {
+			border: 0;
+			outline: none;
+			padding: 10px;
+			margin-bottom: 20px;
+		}
+		button {
+			border: 0;
+			padding: 20px;
+		}
+		.calc {
+			background-color: rgb(67, 122, 250);
+			color: #fff;
+			font-size: 1.5rem;
+			border-radius: 8px;
+		}
+	}
+}
