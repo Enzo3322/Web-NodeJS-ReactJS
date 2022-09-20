@@ -4,10 +4,13 @@ import './styles.scss';
 import 'swiper/css';
 export const ProjectShelf = ({ projects }) => {
 	if (!projects) return null;
+
+	const isMobile = window.innerWidth < 640;
+
 	return (
 		<Swiper
-			spaceBetween={50}
-			slidesPerView={3}
+			spaceBetween={isMobile ? 20 : 50}
+			slidesPerView={isMobile ? 2 : 3}
 			autoplay={{
 				delay: 1500,
 				disableOnInteraction: false,
